@@ -14,7 +14,7 @@ to Programming with Python problem sets.
 - [Week 8 - _Object-Oriented Programming_](#week-8---object-oriented-programming)
 - [Week 9 - _Et Cetera_](#week-9---et-cetera)
 
-## [Week 0](cs50p/week-0) - [_Functions and Variables_][harvard-week-0]
+## [Week 0](/week-0) - [_Functions and Variables_][harvard-week-0]
 
 - [Indoor Voice](/week-0/indoor)
 - [Playback Speed](/week-0/playback/)
