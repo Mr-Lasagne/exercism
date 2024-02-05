@@ -1,20 +1,30 @@
 # freeCodeCamp
 
-### This repository consists of my (as yet incomplete) solutions to freeCodeCamp's certification projects.
+This folder consists of my (as yet incomplete) solutions to
+[freeCodeCamp's][freecodecamp] certification projects.
 
-<br/>
+- [Responsive Web Design](#responsive-web-design)
+- [JavaScript Algorithms and Data Structures](#javascript-algorithms-and-data-structures)
+- [Front End Development Libraries](#front-end-development-libraries)
+- [Data Visualisation](#data-visualisation)
+- [Relational Database](#relational-database)
+- [Back End Development and APIs](#back-end-development-and-apis)
+- [Quality Assurance](#quality-assurance)
+- [Scientific Computing with Python](#scientific-computing-with-python)
+- [Data Analysis with Python](#data-analysis-with-python)
+- [Information Security](#information-security)
+- [Machine Learning with Python](#machine-learning-with-python)
+- [College Algebra with Python](#college-algebra-with-python)
 
-## Table of Contents
+## [Responsive Web Design][responsive-web-design]
 
-### **[Responsive Web Design](/responsive-web-design/)**<br/><sup><a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/">_freeCodeCamp_</a></sup>
-
-- [Survey Form](/responsive-web-design/survey-form/)
-- [Tribute Page](/responsive-web-design/tribute-page/)
+- [Survey Form][survey-form]
+- [Tribute Page][tribute-page]
 - Technical Documentation Page (TODO)
 - Product Landing Page (TODO)
 - Personal Portfolio Webpage (TODO)
 
-### **[JavaScript Algorithms and Data Structures](/javascript-algorithms-and-data-structures/)**<br/><sup><a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/">_freeCodeCamp_</a></sup>
+## JavaScript Algorithms and Data Structures
 
 - Palindrome Checker (TODO)
 - Roman Numeral Converter (TODO)
@@ -22,7 +32,7 @@
 - Telephone Number Validator (TODO)
 - Cash Register (TODO)
 
-### **[Front End Development Libraries](/front-end-development-libraries/)**<br/><sup><a href="https://www.freecodecamp.org/learn/front-end-development-libraries/">_freeCodeCamp_</a></sup>
+## Front End Development Libraries
 
 - Random Quote Machine (TODO)
 - Markdown Previewer (TODO)
@@ -30,7 +40,7 @@
 - JavaScript Calculator (TODO)
 - 25 + 5 Clock (TODO)
 
-### **[Data Visualisation](/data-visualisation/)**<br/><sup><a href="https://www.freecodecamp.org/learn/data-visualization/">_freeCodeCamp_</a></sup>
+## Data Visualisation
 
 - Bar Chart (TODO)
 - Scatterplot Graph (TODO)
@@ -38,7 +48,7 @@
 - Choropleth Map (TODO)
 - Treemap Diagram (TODO)
 
-### **[Relational Database](/relational-database/)**<br/><sup><a href="https://www.freecodecamp.org/learn/relational-database/">_freeCodeCamp_</a></sup>
+## Relational Database
 
 - Celestial Bodies Database (TODO)
 - World Cup Database (TODO)
@@ -46,7 +56,7 @@
 - Periodic Table Database (TODO)
 - Number Guessing Game (TODO)
 
-### **[Back End Development and APIs](/back-end-development-and-apis/)**<br/><sup><a href="https://www.freecodecamp.org/learn/back-end-development-and-apis/">_freeCodeCamp_</a></sup>
+## Back End Development and APIs
 
 - Timestamp Microservice (TODO)
 - Request Header Parser Microservice (TODO)
@@ -54,7 +64,7 @@
 - Exercise Tracker (TODO)
 - File Metadata Microservice (TODO)
 
-### **[Quality Assurance](/quality-assurance/)**<br/><sup><a href="https://www.freecodecamp.org/learn/quality-assurance/">_freeCodeCamp_</a></sup>
+## Quality Assurance
 
 - Metric-Imperial Converter (TODO)
 - Issue Tracker (TODO)
@@ -62,7 +72,7 @@
 - Sudoku Solver (TODO)
 - American British Translator (TODO)
 
-### **[Scientific Computing with Python](/scientific-computing-with-python/)**<br/><sup><a href="https://www.freecodecamp.org/learn/scientific-computing-with-python/">_freeCodeCamp_</a></sup>
+## Scientific Computing with Python
 
 - Arithmetic Formatter (TODO)
 - Time Calculator (TODO)
@@ -70,7 +80,7 @@
 - Polygon Area Calculator (TODO)
 - Probability Calculator (TODO)
 
-### **[Data Analysis with Python](/data-analysis-with-python/)**<br/><sup><a href="https://www.freecodecamp.org/learn/data-analysis-with-python/">_freeCodeCamp_</a></sup>
+## Data Analysis with Python
 
 - Mean-Variance-Standard Deviation Calculator (TODO)
 - Demographic Data Analyser (TODO)
@@ -78,7 +88,7 @@
 - Page View Time Series Visualiser (TODO)
 - Sea Level Predictor (TODO)
 
-### **[Information Security](/information-security/)**<br/><sup><a href="https://www.freecodecamp.org/learn/information-security/">_freeCodeCamp_</a></sup>
+## Information Security
 
 - Stock Price Checker (TODO)
 - Anonymous Message Board (TODO)
@@ -86,7 +96,7 @@
 - SHA-1 Password Cracker (TODO)
 - Secure Real Time Multiplayer Game (TODO)
 
-### **[Machine Learning with Python](/machine-learning-with-python/)**<br/><sup><a href="https://www.freecodecamp.org/learn/machine-learning-with-python/">_freeCodeCamp_</a></sup>
+## Machine Learning with Python
 
 - Rock Paper Scissors (TODO)
 - Cat and Dog Image Classifier (TODO)
@@ -94,10 +104,18 @@
 - Linear Regression Health Costs Calculator (TODO)
 - Neural Network SMS Text Classifier (TODO)
 
-### **[College Algebra with Python](/college-algebra-with-python/)**<br/><sup><a href="https://www.freecodecamp.org/learn/college-algebra-with-python/">_freeCodeCamp_</a></sup>
+## College Algebra with Python
 
 - Multi-Function Calculator (TODO)
 - Graphing Calculator (TODO)
 - Three Maths Games (TODO)
 - Financial Calculator (TODO)
 - Data Graph Explorer (TODO)
+
+[freecodecamp]: https://www.freecodecamp.org/
+[responsive-web-design]:
+  https://github.com/Mr-Lasagne/learning-exercise-portfolio/tree/main/freecodecamp/responsive-web-design
+[survey-form]:
+  https://github.com/Mr-Lasagne/learning-exercise-portfolio/tree/main/freecodecamp/responsive-web-design/survey-form
+[tribute-page]:
+  https://github.com/Mr-Lasagne/learning-exercise-portfolio/tree/main/freecodecamp/responsive-web-design/tribute-page
