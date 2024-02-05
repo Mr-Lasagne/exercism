@@ -16,24 +16,24 @@ to Programming with Python problem sets.
 
 ## [Week 0][github-week-0] - [_Functions and Variables_][harvard-week-0]
 
-- [Indoor Voice](/week-0/indoor)
-- [Playback Speed](/week-0/playback/)
-- [Making Faces](/week-0/faces/)
-- [Einstein](/week-0/einstein/)
-- [Tip Calculator](/week-0/tip/)
+- [Indoor Voice][indoor]
+- [Playback Speed][playback]
+- [Making Faces][faces]
+- [Einstein][einstein]
+- [Tip Calculator][tip]
 
 ## [Week 1][github-week-1] - [_Conditionals_][harvard-week-1]
 
-- [Deep Thought](/week-1/deep/)
-- [Home Federal Savings Bank](/week-1/bank/)
-- [File Extensions](/week-1/extensions/)
-- [Math Interpreter](/week-1/interpreter/)
-- [Meal Time](/week-1/meal/)
+- [Deep Thought][deep]
+- [Home Federal Savings Bank][bank]
+- [File Extensions][extensions]
+- [Math Interpreter][interpreter]
+- [Meal Time][meal]
 
 ## [Week 2][github-week-2] - [_Loops_][harvard-week-2]
 
-- [camelCase](/week-2/camel/)
-- [Coke Machine](/week-2/coke/)
+- [camelCase][camel]
+- [Coke Machine][coke]
 - Just setting up my twttr (TODO)
 - Vanity Plates (TODO)
 - Nutrition Facts (TODO)
@@ -86,6 +86,20 @@ to Programming with Python problem sets.
 
 - Final Project (TODO)
 
+[bank]:
+  https://github.com/Mr-Lasagne/learning-exercise-portfolio/tree/main/cs50p/week-1/bank
+[camel]:
+  https://github.com/Mr-Lasagne/learning-exercise-portfolio/tree/main/cs50p/week-2/camel
+[coke]:
+  https://github.com/Mr-Lasagne/learning-exercise-portfolio/tree/main/cs50p/week-2/coke
+[deep]:
+  https://github.com/Mr-Lasagne/learning-exercise-portfolio/tree/main/cs50p/week-1/deep
+[einstein]:
+  https://github.com/Mr-Lasagne/learning-exercise-portfolio/tree/main/cs50p/week-0/einstein
+[extensions]:
+  https://github.com/Mr-Lasagne/learning-exercise-portfolio/tree/main/cs50p/week-1/extensions
+[faces]:
+  https://github.com/Mr-Lasagne/learning-exercise-portfolio/tree/main/cs50p/week-0/faces
 [github-week-0]:
   https://github.com/Mr-Lasagne/learning-exercise-portfolio/tree/main/cs50p/week-0
 [github-week-1]:
@@ -102,3 +116,13 @@ to Programming with Python problem sets.
 [harvard-week-7]: https://cs50.harvard.edu/python/2022/weeks/7/
 [harvard-week-8]: https://cs50.harvard.edu/python/2022/weeks/8/
 [harvard-week-9]: https://cs50.harvard.edu/python/2022/weeks/9/
+[indoor]:
+  https://github.com/Mr-Lasagne/learning-exercise-portfolio/tree/main/cs50p/week-0/indoor
+[interpreter]:
+  https://github.com/Mr-Lasagne/learning-exercise-portfolio/tree/main/cs50p/week-1/interpreter
+[meal]:
+  https://github.com/Mr-Lasagne/learning-exercise-portfolio/tree/main/cs50p/week-1/meal
+[playback]:
+  https://github.com/Mr-Lasagne/learning-exercise-portfolio/tree/main/cs50p/week-0/playback
+[tip]:
+  https://github.com/Mr-Lasagne/learning-exercise-portfolio/tree/main/cs50p/week-0/tip
