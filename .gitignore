@@ -20,3 +20,4 @@ __pycache__
 .markdownlint.yaml
 .pylintrc
 pytest.ini
+.ruff.toml
