@@ -8,7 +8,8 @@ program for beginning programming in a new language or environment.
 ## Task
 
 In a file called `hello_world.py`, implement a program that returns the string
-`Hello, World!`. The program should include a function `hello`.
+`Hello, World!`. The program should include a function `hello` that takes no
+arguments.
 
 ### Testing
 
