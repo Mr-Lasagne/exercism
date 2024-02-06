@@ -1,2 +1,10 @@
-def hello():
-    raise NotImplementedError("This function has not been implemented yet.")
+"""My solution to Exercism's Python exercise: Hello World."""
+
+
+def hello() -> str:
+    """Say `Hello, World!`.
+
+    :return: The string `Hello, World!`
+    :rtype: str
+    """
+    return "Hello, World!"

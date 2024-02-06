@@ -1,28 +1,12 @@
-import unittest
+"""Test suite for Exercism's Python exercise: Hello World."""
 
 import pytest
-
-try:
-    from hello_world import hello
-
-except ImportError as import_fail:
-    message = import_fail.args[0].split("(", maxsplit=1)
-    item_name = import_fail.args[0].split()[3]
-
-    item_name = item_name[:-1] + "()'"
-
-    raise ImportError(
-        "\n\nMISSING FUNCTION --> In your 'hello_world.py' file, we can not find or import the"
-        f" function named {item_name}. \nThe tests for this first exercise expect a function that"
-        f' returns the string "Hello, World!"'
-        f'\n\nDid you use print("Hello, World!") instead?'
-    ) from None
+from hello_world import hello
 
 
-class TestHelloWorld(unittest.TestCase):
-    def test_say_hi(self):
-        msg = "\n\nThis test expects a return of the string 'Hello, World!' \nDid you use print('Hello, World!') by mistake?"
-        self.assertEqual(hello(), "Hello, World!", msg=msg)
+def test_say_hello_world() -> None:
+    """Test case for the function to say hello."""
+    assert hello() == "Hello, World!"
 
 
 if __name__ == "__main__":

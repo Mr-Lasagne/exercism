@@ -1,16 +1,25 @@
 # Hello World: Instructions
 
-The classical introductory exercise. Just say "Hello, World!".
+## Introduction
 
-["Hello, World!"][hello-world] is the traditional first program for beginning
-programming in a new language or environment.
+["Hello, World!"][wikipedia-hello-world-program] is the traditional first
+program for beginning programming in a new language or environment.
 
-The objectives are simple:
+## Task
 
-- Modify the provided code so that it produces the string "Hello, World!".
-- Run the test suite and make sure that it succeeds.
-- Submit your solution and check it at the website.
+In a file called `hello_world.py`, implement a program that returns the string
+`Hello, World!`. The program should include a function `hello`.
 
-If everything goes well, you will be ready to fetch your first real exercise.
+### Testing
 
-[hello-world]: https://en.wikipedia.org/wiki/%22Hello,_world!%22_program
+In a file called `test_hello_world.py`, implement a test suite that covers the
+following cases:
+
+```python
+# Calling `hello()` should output "Hello, World!"
+>>> hello()
+'Hello, World!'
+```
+
+[wikipedia-hello-world-program]:
+  https://en.wikipedia.org/wiki/%22Hello,_World!%22_program
