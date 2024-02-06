@@ -91,7 +91,7 @@ available on [Exercism][exercism].
 
 - Hamming
 - Hangman
-- Hello World
+- [Hello World][github-hello-world]
 - High Scores
 - House
 
@@ -229,3 +229,5 @@ available on [Exercism][exercism].
 - Zipper
 
 [exercism]: https://exercism.org/dashboard
+[github-hello-world]:
+  https://github.com/Mr-Lasagne/learning-exercise-portfolio/tree/main/exercism/python/hello-world
