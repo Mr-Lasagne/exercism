@@ -85,7 +85,7 @@ available on [Exercism][exercism].
 - Grade School
 - Grains
 - Grep
-- Guido's Gorgeous Lasagna
+- [Guido's Gorgeous Lasagna][github-guidos-gorgeous-lasagna]
 
 #### H
 
@@ -229,5 +229,7 @@ available on [Exercism][exercism].
 - Zipper
 
 [exercism]: https://exercism.org/dashboard
+[github-guidos-gorgeous-lasagna]:
+  https://github.com/Mr-Lasagne/learning-exercise-portfolio/tree/main/exercism/python/guidos-gorgeous-lasagna
 [github-hello-world]:
   https://github.com/Mr-Lasagne/learning-exercise-portfolio/tree/main/exercism/python/hello-world
