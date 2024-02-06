@@ -14,10 +14,10 @@ arguments.
 ### Testing
 
 In a file called `test_hello_world.py`, implement a test suite that covers the
-following cases:
+following test cases:
 
 ```python
-# Calling `hello()` should output "Hello, World!"
+# Calling `hello()` should output "Hello, World!".
 >>> hello()
 'Hello, World!'
 ```

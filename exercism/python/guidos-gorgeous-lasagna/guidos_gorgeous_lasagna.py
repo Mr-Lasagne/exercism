@@ -1,13 +1,40 @@
-# TODO: define the 'EXPECTED_BAKE_TIME' constant.
+"""My solution to Exercism's Python exercise: Guido's Gorgeous Lasagna."""
+
+EXPECTED_BAKE_TIME = 40
+PREPARATION_TIME = 2
 
 
-def bake_time_remaining():
-    raise NotImplementedError("This function has not been implemented yet.")
+def bake_time_remaining(elapsed_bake_time: int) -> int:
+    """Calculate the bake time remaining.
+
+    :param elapsed_bake_time: The baking time (in minutes) that has already
+        elapsed.
+    :type elapsed_bake_time: int
+    :return: The remaining bake time (in minutes) based on 'EXPECTED_BAKE_TIME'.
+    :rtype: int
+    """
+    return EXPECTED_BAKE_TIME - elapsed_bake_time
 
 
-# TODO: Define the 'preparation_time_in_minutes()' function below.
-# You might also consider using 'PREPARATION_TIME' here, if you have it defined.
+def total_layer_preparation_time(number_of_layers: int) -> int:
+    """Calculate the preparation time.
+
+    :param number_of_layers: The number of lasagna layers.
+    :type number_of_layers: int
+    :return: The preparation time (in minutes) based on 'PREPARATION_TIME'.
+    :rtype: int
+    """
+    return PREPARATION_TIME * number_of_layers
 
 
-# TODO: define the 'elapsed_time_in_minutes()' function below.
-# Remember to add a docstring (you can copy and then alter the one from bake_time_remaining.)
+def total_elapsed_cooking_time(number_of_layers: int, elapsed_bake_time: int) -> int:
+    """Calculate the elapsed cooking time.
+
+    :param number_of_layers: The number of layers in the lasagna.
+    :type number_of_layers: int
+    :param elapsed_bake_time: The elapsed cooking time (in minutes).
+    :type elapsed_bake_time: int
+    :return: The total time elapsed (in minutes) preparing and cooking.
+    :rtype: int
+    """
+    return total_layer_preparation_time(number_of_layers) + elapsed_bake_time
