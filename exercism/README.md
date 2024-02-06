@@ -3,13 +3,23 @@
 This folder consists of my (as yet incomplete) solutions to the exercises
 available on [Exercism][exercism].
 
-## Python
+## Table of Contents
+
+- [Python](#python)
+
+---
+
+### Python
+
+---
 
 **Jump to:** [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g)
 | [H](#h) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q)
 | [R](#r) | [S](#s) | [T](#t) | [V](#v) | [W](#w) | [Y](#y) | [Z](#z)
 
-### A
+---
+
+#### A
 
 - Acronym
 - Affine Cipher
@@ -20,7 +30,7 @@ available on [Exercism][exercism].
 - Armstrong Numbers
 - Atbash Cipher
 
-### B
+#### B
 
 - Bank Account
 - Binary Search
@@ -31,7 +41,7 @@ available on [Exercism][exercism].
 - Bottle Song
 - Bowling
 
-### C
+#### C
 
 - Card Games
 - Cater Waiter
@@ -46,7 +56,7 @@ available on [Exercism][exercism].
 - Currency Exchange
 - Custom Set
 
-### D
+#### D
 
 - Darts
 - Diamond
@@ -55,19 +65,19 @@ available on [Exercism][exercism].
 - Dominoes
 - DOT DSL
 
-### E
+#### E
 
 - Eliud's Eggs
 - Ellen's Alien Game
 - ETL
 
-### F
+#### F
 
 - Flatten Array
 - Food Chain
 - Forth
 
-### G
+#### G
 
 - Ghost Gobble Arcade Game
 - Gigasecond
@@ -77,7 +87,7 @@ available on [Exercism][exercism].
 - Grep
 - Guido's Gorgeous Lasagna
 
-### H
+#### H
 
 - Hamming
 - Hangman
@@ -85,19 +95,19 @@ available on [Exercism][exercism].
 - High Scores
 - House
 
-### I
+#### I
 
 - Inventory Management
 - ISBN Verifier
 - Isogram
 
-### K
+#### K
 
 - Killer Sudoku Helper
 - Kindergarten Garden
 - Knapsack
 
-### L
+#### L
 
 - Largest Series Product
 - Leap
@@ -109,7 +119,7 @@ available on [Exercism][exercism].
 - Locomotive Engineer
 - Luhn
 
-### M
+#### M
 
 - Making the Grade
 - Markdown
@@ -120,15 +130,15 @@ available on [Exercism][exercism].
 - Meltdown Mitigation
 - Minesweeper
 
-### N
+#### N
 
 - Nth Prime
 
-### O
+#### O
 
 - OCR Numbers
 
-### P
+#### P
 
 - PaaS I/O
 - Palindrome Products
@@ -145,11 +155,11 @@ available on [Exercism][exercism].
 - Proverb
 - Pythagorean Triplet
 
-### Q
+#### Q
 
 - Queen Attack
 
-### R
+#### R
 
 - Rail Fence Cipher
 - Raindrops
@@ -169,7 +179,7 @@ available on [Exercism][exercism].
 - Rotational Cipher
 - Run-Length Encoding
 
-### S
+#### S
 
 - Saddle Points
 - Satellite
@@ -188,7 +198,7 @@ available on [Exercism][exercism].
 - Sublist
 - Sum of Multiples
 
-### T
+#### T
 
 - Tisbury Treasure Hunt
 - Tournament
@@ -199,21 +209,21 @@ available on [Exercism][exercism].
 - Two Bucket
 - Two Fer
 
-### V
+#### V
 
 - Variable Length Quantity
 
-### W
+#### W
 
 - Word Count
 - Word Search
 - Wordy
 
-### Y
+#### Y
 
 - Yacht
 
-### Z
+#### Z
 
 - Zebra Puzzle
 - Zipper
