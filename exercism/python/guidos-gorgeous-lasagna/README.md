@@ -15,19 +15,18 @@ In a file called `guidos_gorgeous_lasagna.py`, implement a program that
 calculates various time-related aspects of cooking a lasagna. The program should
 include the following functions:
 
-- `bake_time_remaining` that takes an integer `time` (_how many minutes the
-  lasagna has been in the oven_) as an argument and returns how many minutes the
-  lasagna still needs to bake (_note that the lasagna has a total bake time of
-  40 minutes_).
-- `total_layer_preparation_time` that takes an integer `number_of_layers` (_the
-  number of layers in the lasagna_) as an argument and returns how many minutes
-  you would spend making them (_note that each layer takes 2 minutes to
-  prepare_).
-- `total_elapsed_cooking_time` that takes an integer `number_of_layers` (_the
-  number of layers in the lasagna_) and an integer `elapsed_bake_time` (_the
-  number of minutes the lasagna has been baking in the oven_) as arguments and
-  returns the sum of the preparation time and the time the lasagna has already
-  spent baking in the oven.
+- `bake_time_remaining` that takes an integer (_how many minutes the lasagna has
+  been in the oven_) as an argument and returns the integer number of minutes
+  the lasagna still needs to bake (_note that the lasagna has a total bake time
+  of 40 minutes_).
+- `total_layer_preparation_time` that takes an integer (_the number of layers in
+  the lasagna_) as an argument and returns the integer number of minutes you
+  would spend making them (_note that each layer takes 2 minutes to prepare_).
+- `total_elapsed_cooking_time` that takes an integer (_the number of layers in
+  the lasagna_) and an integer (_the number of minutes the lasagna has been
+  baking in the oven_) as arguments and returns the integer sum of the
+  preparation time and the time the lasagna has already spent baking in the
+  oven.
 
 ### Testing
 

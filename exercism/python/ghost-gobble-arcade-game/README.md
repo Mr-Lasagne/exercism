@@ -1,69 +1,66 @@
 # Ghost Gobble Arcade Game: Instructions
 
-- [1. Define if Pac-Man eats a ghost](#1-define-if-pac-man-eats-a-ghost)
-- [2. Define if Pac-Man scores](#2-define-if-pac-man-scores)
-- [3. Define if Pac-Man loses](#3-define-if-pac-man-loses)
-- [4. Define if Pac-Man wins](#4-define-if-pac-man-wins)
+- [Introduction](#introduction)
+- [Task](#task)
+  - [Testing](#testing)
 
-In this exercise, you need to implement some rules from [Pac-Man][Pac-Man], the
-classic 1980s-era arcade-game.
+## Introduction
 
-You have four rules to implement, all related to the game states.
+[Pac-Man][pac-man], originally called Puck Man in Japan, is a 1980 maze action
+video game developed and released for arcades.
 
-> _Do not worry about how the arguments are derived, just focus on combining the
-> arguments to return the intended result._
+## Task
 
-## 1. Define if Pac-Man eats a ghost
+In a file called `ghost_gobble_arcade_game.py`, implement a program that covers
+various rules of Pac-Man. The program should include the following functions:
 
-Define the `eat_ghost()` function that takes two parameters (_if Pac-Man has a
-power pellet active_ and _if Pac-Man is touching a ghost_) and returns a Boolean
-value if Pac-Man is able to eat the ghost. The function should return `True`
-only if Pac-Man has a power pellet active and is touching a ghost.
+- `can_eat_ghost` that takes a Boolean value (_does Pac-Man have a power pellet
+  active?_) and a Boolean value (_is Pac-Man touching a ghost?_) as arguments
+  and returns `True` if Pac-man has a power pellet active and is touching a
+  ghost and `False` otherwise.
+- `does_score` that takes a Boolean value (_is Pac-Man touching a power
+  pellet?_) and a Boolean value (_is Pac-Man touching a dot?_) as arguments and
+  returns `True` if Pac-Man is touching a power pellet or a dot and `False`
+  otherwise.
+- `does_lose` that takes a Boolean value (_does Pac-Man have a power pellet
+  active?_) and a Boolean value (_is Pac-Man touching a ghost?_) as arguments
+  and returns `True` if Pac-Man does not have a power pellet active and is
+  touching a ghost and `False` otherwise.
+- `does_win` that takes a Boolean value (_has Pac-Man eaten all of the dots_), a
+  Boolean value (_does Pac-Man have a power pellet active?_), and a Boolean
+  value (_is Pac-Man touching a ghost?_) as arguments and returns `True` if
+  Pac-Man has eaten all of the dots and has not lost according to the function
+  `does_lose`.
+
+### Testing
+
+In a file called `test_ghost_gobble_arcade_game.py`, implement a test suite that
+covers the following test cases:
 
 ```python
->>> eat_ghost(False, True)
-...
+# Ensure `can_eat_ghost` returns the correct value.
+>>> can_eat_ghost(True, True)
+True
+>>> can_eat_ghost(False, True)
+False
+
+# Ensure `does_score` returns the correct value.
+>>> does_score(True, True)
+True
+>>> does_score(False, False)
+False
+
+# Ensure `does_lose` returns the correct value.
+>>> does_lose(True, True)
+False
+>>> does_lose(False, True)
+True
+
+# Ensure `does_win` returns the correct value.
+>>> win(True, True, True)
+True
+>>> win(False, True, True)
 False
 ```
 
-## 2. Define if Pac-Man scores
-
-Define the `score()` function that takes two parameters (_if Pac-Man is touching
-a power pellet_ and _if Pac-Man is touching a dot_) and returns a Boolean value
-if Pac-Man scored. The function should return `True` if Pac-Man is touching a
-power pellet or a dot.
-
-```python
->>> score(True, True)
-...
-True
-```
-
-## 3. Define if Pac-Man loses
-
-Define the `lose()` function that takes two parameters (_if Pac-Man has a power
-pellet active_ and _if Pac-Man is touching a ghost_) and returns a Boolean value
-if Pac-Man loses. The function should return `True` if Pac-Man is touching a
-ghost and does not have a power pellet active.
-
-```python
->>> lose(False, True)
-...
-True
-```
-
-## 4. Define if Pac-Man wins
-
-Define the `win()` function that takes three parameters (_if Pac-Man has eaten
-all of the dots_, _if Pac-Man has a power pellet active_, and _if Pac-Man is
-touching a ghost_) and returns a Boolean value if Pac-Man wins. The function
-should return `True` if Pac-Man has eaten all of the dots and has not lost based
-on the parameters defined in part 3.
-
-```python
->>> win(False, True, False)
-...
-False
-```
-
-[Pac-Man]: https://en.wikipedia.org/wiki/Pac-Man
+[pac-man]: https://en.wikipedia.org/wiki/Pac-Man
