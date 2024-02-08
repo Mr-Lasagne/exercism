@@ -1,4 +1,4 @@
-"""Keyword arguments solution to Ghost Gobble Arcade Game."""
+"""Solution to Ghost Gobble Arcade Game."""
 
 
 def can_eat_ghost(*, power_pellet_active: bool, touching_ghost: bool) -> bool:
