@@ -79,7 +79,7 @@ available on [Exercism][exercism].
 
 #### G
 
-- Ghost Gobble Arcade Game
+- [Ghost Gobble Arcade Game][github-ghost-gobble-arcade-game]
 - Gigasecond
 - Go Counting
 - Grade School
@@ -229,6 +229,8 @@ available on [Exercism][exercism].
 - Zipper
 
 [exercism]: https://exercism.org/dashboard
+[github-ghost-gobble-arcade-game]:
+  https://github.com/Mr-Lasagne/learning-exercise-portfolio/tree/main/exercism/python/ghost-gobble-arcade-game
 [github-guidos-gorgeous-lasagna]:
   https://github.com/Mr-Lasagne/learning-exercise-portfolio/tree/main/exercism/python/guidos-gorgeous-lasagna
 [github-hello-world]:
