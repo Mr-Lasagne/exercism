@@ -1,6 +1,6 @@
 # Exercism
 
-This folder consists of my (as yet incomplete) solutions to the exercises
+This repo consists of my (as yet incomplete) solutions to the exercises
 available on [Exercism][exercism].
 
 ## Table of Contents
