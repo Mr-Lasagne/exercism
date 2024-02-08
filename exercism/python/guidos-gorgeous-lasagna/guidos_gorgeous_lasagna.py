@@ -1,7 +1,7 @@
-"""My solution to Exercism's Python exercise: Guido's Gorgeous Lasagna."""
+"""Solution to Guido's Gorgeous Lasagna."""
 
 EXPECTED_BAKE_TIME = 40
-PREPARATION_TIME = 2
+LAYER_PREPARATION_TIME = 2
 
 
 def bake_time_remaining(elapsed_bake_time: int) -> int:
@@ -24,7 +24,7 @@ def total_layer_preparation_time(number_of_layers: int) -> int:
     :return: The preparation time (in minutes) based on 'PREPARATION_TIME'.
     :rtype: int
     """
-    return PREPARATION_TIME * number_of_layers
+    return LAYER_PREPARATION_TIME * number_of_layers
 
 
 def total_elapsed_cooking_time(number_of_layers: int, elapsed_bake_time: int) -> int:

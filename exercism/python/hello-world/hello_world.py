@@ -1,4 +1,4 @@
-"""My solution to Exercism's Python exercise: Hello World."""
+"""Solution to Hello World."""
 
 
 def hello() -> str:

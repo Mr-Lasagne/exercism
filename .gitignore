@@ -19,5 +19,7 @@ __pycache__
 .flake8
 .markdownlint.yaml
 .pylintrc
-pytest.ini
 __init__.py
+.ruff.toml
+pytest.ini
+.coverage
