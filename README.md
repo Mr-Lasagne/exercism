@@ -115,7 +115,7 @@ available on [Exercism][exercism].
 - Linked List
 - List Ops
 - [Little Sister's Essay][github-little-sisters-essay]
-- Little Sister's Vocabulary
+- [Little Sister's Vocabulary][github-little-sisters-vocabulary]
 - Locomotive Engineer
 - Luhn
 
@@ -241,5 +241,7 @@ available on [Exercism][exercism].
   https://github.com/Mr-Lasagne/exercism/tree/main/python/hello_world
 [github-little-sisters-essay]:
   https://github.com/Mr-Lasagne/exercism/tree/main/python/little_sisters_essay
+[github-little-sisters-vocabulary]:
+  https://github.com/Mr-Lasagne/exercism/tree/main/python/little_sisters_vocabulary
 [github-meltdown-mitigation]:
   https://github.com/Mr-Lasagne/exercism/tree/main/python/meltdown_mitigation
