@@ -2,7 +2,7 @@
 
 import pytest
 
-from python.exchange.currency_exchange import (
+from python.currency_exchange.currency_exchange import (
     exchange_money,
     exchangeable_value,
     get_change,

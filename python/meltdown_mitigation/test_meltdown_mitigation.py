@@ -2,7 +2,7 @@
 
 import pytest
 
-from python.meltdown.meltdown_mitigation import (
+from python.meltdown_mitigation.meltdown_mitigation import (
     fail_safe,
     is_criticality_balanced,
     reactor_efficiency,

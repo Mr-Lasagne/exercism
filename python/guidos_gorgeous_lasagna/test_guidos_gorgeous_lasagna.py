@@ -2,7 +2,7 @@
 
 import pytest
 
-from python.lasagna.guidos_gorgeous_lasagna import (
+from python.guidos_gorgeous_lasagna.guidos_gorgeous_lasagna import (
     bake_time_remaining,
     total_elapsed_cooking_time,
     total_layer_preparation_time,

@@ -53,7 +53,7 @@ available on [Exercism][exercism].
 - Complex Numbers
 - Connect
 - Crypto Square
-- [Currency Exchange][github-exchange]
+- [Currency Exchange][github-currency-exchange]
 - Custom Set
 
 #### D
@@ -79,19 +79,19 @@ available on [Exercism][exercism].
 
 #### G
 
-- [Ghost Gobble Arcade Game][github-arcade]
+- [Ghost Gobble Arcade Game][github-ghost-gobble-arcade-game]
 - Gigasecond
 - Go Counting
 - Grade School
 - Grains
 - Grep
-- [Guido's Gorgeous Lasagna][github-lasagna]
+- [Guido's Gorgeous Lasagna][github-guidos-gorgeous-lasagna]
 
 #### H
 
 - Hamming
 - Hangman
-- [Hello World][github-hello]
+- [Hello World][github-hello-world]
 - High Scores
 - House
 
@@ -127,7 +127,7 @@ available on [Exercism][exercism].
 - Matrix
 - Mecha Munch Management
 - Meetup
-- [Meltdown Mitigation][github-meltdown]
+- [Meltdown Mitigation][github-meltdown-mitigation]
 - Minesweeper
 
 #### N
@@ -231,11 +231,13 @@ available on [Exercism][exercism].
 [exercism]: https://exercism.org/dashboard
 [github-blackjack]:
   https://github.com/Mr-Lasagne/exercism/tree/main/python/blackjack
-[github-exchange]:
-  https://github.com/Mr-Lasagne/exercism/tree/main/python/exchange
-[github-arcade]: https://github.com/Mr-Lasagne/exercism/tree/main/python/arcade
-[github-lasagna]:
-  https://github.com/Mr-Lasagne/exercism/tree/main/python/lasagna
-[github-hello]: https://github.com/Mr-Lasagne/exercism/tree/main/python/hello
-[github-meltdown]:
-  https://github.com/Mr-Lasagne/exercism/tree/main/python/meltdown
+[github-currency-exchange]:
+  https://github.com/Mr-Lasagne/exercism/tree/main/python/currency_exchange
+[github-ghost-gobble-arcade-game]:
+  https://github.com/Mr-Lasagne/exercism/tree/main/python/ghost_gobble_arcade_game
+[github-guidos-gorgeous-lasagna]:
+  https://github.com/Mr-Lasagne/exercism/tree/main/python/guidos_gorgeous_lasagna
+[github-hello-world]:
+  https://github.com/Mr-Lasagne/exercism/tree/main/python/hello_world
+[github-meltdown-mitigation]:
+  https://github.com/Mr-Lasagne/exercism/tree/main/python/meltdown_mitigation

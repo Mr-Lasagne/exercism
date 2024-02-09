@@ -1,7 +1,13 @@
 """Test suite for Ghost Gobble Arcade Game."""
 
 import pytest
-from ghost_gobble_arcade_game import can_eat_ghost, has_lost, has_scored, has_won
+
+from python.ghost_gobble_arcade_game.ghost_gobble_arcade_game import (
+    can_eat_ghost,
+    has_lost,
+    has_scored,
+    has_won,
+)
 
 
 def test_ghost_gets_eaten() -> None:

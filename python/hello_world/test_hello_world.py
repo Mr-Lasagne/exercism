@@ -2,7 +2,7 @@
 
 import pytest
 
-from python.hello.hello_world import hello
+from python.hello_world.hello_world import hello
 
 
 def test_say_hello_world() -> None:
