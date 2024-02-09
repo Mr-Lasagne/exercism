@@ -1,4 +1,4 @@
-"""Test suite for Exercism's Python exercise: Ghost Gobble Arcade Game."""
+"""Test suite for Ghost Gobble Arcade Game."""
 
 import pytest
 from ghost_gobble_arcade_game import can_eat_ghost, has_lost, has_scored, has_won
