@@ -114,7 +114,7 @@ available on [Exercism][exercism].
 - Ledger
 - Linked List
 - List Ops
-- Little Sister's Essay
+- [Little Sister's Essay][github-little-sisters-essay]
 - Little Sister's Vocabulary
 - Locomotive Engineer
 - Luhn
@@ -239,5 +239,7 @@ available on [Exercism][exercism].
   https://github.com/Mr-Lasagne/exercism/tree/main/python/guidos_gorgeous_lasagna
 [github-hello-world]:
   https://github.com/Mr-Lasagne/exercism/tree/main/python/hello_world
+[github-little-sisters-essay]:
+  https://github.com/Mr-Lasagne/exercism/tree/main/python/little_sisters_essay
 [github-meltdown-mitigation]:
   https://github.com/Mr-Lasagne/exercism/tree/main/python/meltdown_mitigation
