@@ -1,7 +1,8 @@
 """Test suite for Currency Exchange."""
 
 import pytest
-from currency_exchange import (
+
+from python.exchange.currency_exchange import (
     exchange_money,
     exchangeable_value,
     get_change,

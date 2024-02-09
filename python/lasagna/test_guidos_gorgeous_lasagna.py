@@ -1,7 +1,8 @@
 """Test suite for Guido's Gorgeous Lasagna."""
 
 import pytest
-from guidos_gorgeous_lasagna import (
+
+from python.lasagna.guidos_gorgeous_lasagna import (
     bake_time_remaining,
     total_elapsed_cooking_time,
     total_layer_preparation_time,

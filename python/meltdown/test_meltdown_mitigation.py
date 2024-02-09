@@ -1,7 +1,12 @@
 """Test suite for Meltdown Mitigation."""
 
 import pytest
-from meltdown_mitigation import fail_safe, is_criticality_balanced, reactor_efficiency
+
+from python.meltdown.meltdown_mitigation import (
+    fail_safe,
+    is_criticality_balanced,
+    reactor_efficiency,
+)
 
 
 def test_is_criticality_balanced() -> None:
