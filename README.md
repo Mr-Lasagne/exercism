@@ -35,7 +35,7 @@ available on [Exercism][exercism].
 - Bank Account
 - Binary Search
 - Binary Search Tree
-- Blackjack
+- [Blackjack][github-blackjack]
 - Bob
 - Book Store
 - Bottle Song
@@ -53,7 +53,7 @@ available on [Exercism][exercism].
 - Complex Numbers
 - Connect
 - Crypto Square
-- [Currency Exchange][github-currency-exchange]
+- [Currency Exchange][github-exchange]
 - Custom Set
 
 #### D
@@ -79,19 +79,19 @@ available on [Exercism][exercism].
 
 #### G
 
-- [Ghost Gobble Arcade Game][github-ghost-gobble-arcade-game]
+- [Ghost Gobble Arcade Game][github-arcade]
 - Gigasecond
 - Go Counting
 - Grade School
 - Grains
 - Grep
-- [Guido's Gorgeous Lasagna][github-guidos-gorgeous-lasagna]
+- [Guido's Gorgeous Lasagna][github-lasagna]
 
 #### H
 
 - Hamming
 - Hangman
-- [Hello World][github-hello-world]
+- [Hello World][github-hello]
 - High Scores
 - House
 
@@ -127,7 +127,7 @@ available on [Exercism][exercism].
 - Matrix
 - Mecha Munch Management
 - Meetup
-- [Meltdown Mitigation][github-meltdown-mitigation]
+- [Meltdown Mitigation][github-meltdown]
 - Minesweeper
 
 #### N
@@ -229,13 +229,13 @@ available on [Exercism][exercism].
 - Zipper
 
 [exercism]: https://exercism.org/dashboard
-[github-currency-exchange]:
-  https://github.com/Mr-Lasagne/exercism/tree/main/python/currency-exchange
-[github-ghost-gobble-arcade-game]:
-  https://github.com/Mr-Lasagne/learning-exercise-portfolio/tree/main/exercism/python/ghost-gobble-arcade-game
-[github-guidos-gorgeous-lasagna]:
-  https://github.com/Mr-Lasagne/learning-exercise-portfolio/tree/main/exercism/python/guidos-gorgeous-lasagna
-[github-hello-world]:
-  https://github.com/Mr-Lasagne/learning-exercise-portfolio/tree/main/exercism/python/hello-world
-[github-meltdown-mitigation]:
-  https://github.com/Mr-Lasagne/exercism/tree/main/python/meltdown-mitigation
+[github-blackjack]:
+  https://github.com/Mr-Lasagne/exercism/tree/main/python/blackjack
+[github-exchange]:
+  https://github.com/Mr-Lasagne/exercism/tree/main/python/exchange
+[github-arcade]: https://github.com/Mr-Lasagne/exercism/tree/main/python/arcade
+[github-lasagna]:
+  https://github.com/Mr-Lasagne/exercism/tree/main/python/lasagna
+[github-hello]: https://github.com/Mr-Lasagne/exercism/tree/main/python/hello
+[github-meltdown]:
+  https://github.com/Mr-Lasagne/exercism/tree/main/python/meltdown
