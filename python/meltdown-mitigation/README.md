@@ -94,10 +94,20 @@ covers the following test cases:
 True
 
 # Ensure `reactor_efficiency` returns correctly.
->>> reactor_efficiency(200, 50, 15000)
+>>> reactor_efficiency(10, 1000, 10000)
+'green'
+>>> reactor_efficiency(10, 799, 10000)
 'orange'
+>>> reactor_efficiency(10, 599, 10000)
+'red'
+>>> reactor_efficiency(10, 299, 10000)
+'black'
 
 # Ensure `fail_safe` returns correctly.
->>> fail_safe(1000, 30, 5000)
+>>> fail_safe(10, 399, 10000)
+'LOW'
+>>> fail_safe(10, 901, 10000)
+'NORMAL'
+>>> fail_safe(10, 1101, 10000)
 'DANGER'
 ```

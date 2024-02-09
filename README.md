@@ -127,7 +127,7 @@ available on [Exercism][exercism].
 - Matrix
 - Mecha Munch Management
 - Meetup
-- Meltdown Mitigation
+- [Meltdown Mitigation][github-meltdown-mitigation]
 - Minesweeper
 
 #### N
@@ -237,3 +237,5 @@ available on [Exercism][exercism].
   https://github.com/Mr-Lasagne/learning-exercise-portfolio/tree/main/exercism/python/guidos-gorgeous-lasagna
 [github-hello-world]:
   https://github.com/Mr-Lasagne/learning-exercise-portfolio/tree/main/exercism/python/hello-world
+[github-meltdown-mitigation]:
+  https://github.com/Mr-Lasagne/exercism/tree/main/python/meltdown-mitigation
