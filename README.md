@@ -53,7 +53,7 @@ available on [Exercism][exercism].
 - Complex Numbers
 - Connect
 - Crypto Square
-- Currency Exchange
+- [Currency Exchange][github-currency-exchange]
 - Custom Set
 
 #### D
@@ -229,6 +229,8 @@ available on [Exercism][exercism].
 - Zipper
 
 [exercism]: https://exercism.org/dashboard
+[github-currency-exchange]:
+  https://github.com/Mr-Lasagne/exercism/tree/main/python/currency-exchange
 [github-ghost-gobble-arcade-game]:
   https://github.com/Mr-Lasagne/learning-exercise-portfolio/tree/main/exercism/python/ghost-gobble-arcade-game
 [github-guidos-gorgeous-lasagna]:
