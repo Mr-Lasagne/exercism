@@ -45,7 +45,7 @@ available on [Exercism][exercism].
 
 - [Card Games][github-card-games]
 - Cater Waiter
-- Chaitana's Colossal Coaster
+- [Chaitana's Colossal Coaster][github-chaitanas-colossal-coaster]
 - Change
 - Circular Buffer
 - Clock
@@ -233,6 +233,8 @@ available on [Exercism][exercism].
   https://github.com/Mr-Lasagne/exercism/tree/main/python/blackjack
 [github-card-games]:
   https://github.com/Mr-Lasagne/exercism/tree/main/python/card_games
+[github-chaitanas-colossal-coaster]:
+  https://github.com/Mr-Lasagne/exercism/tree/main/python/chaitanas_colossal_coaster
 [github-currency-exchange]:
   https://github.com/Mr-Lasagne/exercism/tree/main/python/currency_exchange
 [github-ghost-gobble-arcade-game]:
