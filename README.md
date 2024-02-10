@@ -43,7 +43,7 @@ available on [Exercism][exercism].
 
 #### C
 
-- Card Games
+- [Card Games][github-card-games]
 - Cater Waiter
 - Chaitana's Colossal Coaster
 - Change
@@ -231,6 +231,8 @@ available on [Exercism][exercism].
 [exercism]: https://exercism.org/dashboard
 [github-blackjack]:
   https://github.com/Mr-Lasagne/exercism/tree/main/python/blackjack
+[github-card-games]:
+  https://github.com/Mr-Lasagne/exercism/tree/main/python/card_games
 [github-currency-exchange]:
   https://github.com/Mr-Lasagne/exercism/tree/main/python/currency_exchange
 [github-ghost-gobble-arcade-game]:
