@@ -204,7 +204,7 @@ available on [Exercism][exercism].
 - Tournament
 - Transpose
 - Tree Building
-- Triangle
+- [Triangle][github-triangle]
 - Twelve Days
 - Two Bucket
 - Two Fer
@@ -252,3 +252,5 @@ available on [Exercism][exercism].
   https://github.com/Mr-Lasagne/exercism/tree/main/python/making_the_grade
 [github-meltdown-mitigation]:
   https://github.com/Mr-Lasagne/exercism/tree/main/python/meltdown_mitigation
+[github-triangle]:
+  https://github.com/Mr-Lasagne/exercism/tree/main/python/triangle
