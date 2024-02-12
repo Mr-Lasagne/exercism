@@ -110,7 +110,7 @@ available on [Exercism][exercism].
 #### L
 
 - Largest Series Product
-- Leap
+- [Leap][github-leap]
 - Ledger
 - Linked List
 - List Ops
@@ -121,7 +121,7 @@ available on [Exercism][exercism].
 
 #### M
 
-- Making the Grade
+- [Making the Grade][github-making-the-grade]
 - Markdown
 - Matching Brackets
 - Matrix
@@ -243,9 +243,12 @@ available on [Exercism][exercism].
   https://github.com/Mr-Lasagne/exercism/tree/main/python/guidos_gorgeous_lasagna
 [github-hello-world]:
   https://github.com/Mr-Lasagne/exercism/tree/main/python/hello_world
+[github-leap]: https://github.com/Mr-Lasagne/exercism/tree/main/python/leap
 [github-little-sisters-essay]:
   https://github.com/Mr-Lasagne/exercism/tree/main/python/little_sisters_essay
 [github-little-sisters-vocabulary]:
   https://github.com/Mr-Lasagne/exercism/tree/main/python/little_sisters_vocabulary
+[github-making-the-grade]:
+  https://github.com/Mr-Lasagne/exercism/tree/main/python/making_the_grade
 [github-meltdown-mitigation]:
   https://github.com/Mr-Lasagne/exercism/tree/main/python/meltdown_mitigation
