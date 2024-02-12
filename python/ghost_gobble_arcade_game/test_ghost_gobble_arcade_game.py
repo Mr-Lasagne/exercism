@@ -3,6 +3,11 @@
 import pytest
 
 from python.ghost_gobble_arcade_game.ghost_gobble_arcade_game import (
+    AllDotsEatenState,
+    PowerPelletActiveState,
+    TouchingDotState,
+    TouchingGhostState,
+    TouchingPowerPelletState,
     can_eat_ghost,
     has_lost,
     has_scored,
@@ -10,98 +15,153 @@ from python.ghost_gobble_arcade_game.ghost_gobble_arcade_game import (
 )
 
 
-def test_ghost_gets_eaten() -> None:
+@pytest.mark.parametrize(
+    ("power_pellet_active", "touching_ghost", "expected"),
+    [
+        pytest.param(
+            PowerPelletActiveState.ACTIVE,
+            TouchingGhostState.TOUCHING,
+            True,
+            id="ghost_gets_eaten",
+        ),
+        pytest.param(
+            PowerPelletActiveState.INACTIVE,
+            TouchingGhostState.TOUCHING,
+            False,
+            id="ghost_does_not_get_eaten_because_no_power_pellet_active",
+        ),
+        pytest.param(
+            PowerPelletActiveState.ACTIVE,
+            TouchingGhostState.NOT_TOUCHING,
+            False,
+            id="ghost_does_not_get_eaten_because_not_touching_ghost",
+        ),
+    ],
+)
+def test_can_eat_ghost(
+    power_pellet_active: PowerPelletActiveState,
+    touching_ghost: TouchingGhostState,
+    *,
+    expected: bool,
+) -> None:
     """Verify `can_eat_ghost` returns correctly."""
-    assert can_eat_ghost(power_pellet_active=True, touching_ghost=True) is True
+    assert can_eat_ghost(power_pellet_active, touching_ghost) == expected
 
 
-def test_ghost_does_not_get_eaten_because_no_power_pellet_active() -> None:
-    """Verify `can_eat_ghost` returns correctly."""
-    assert can_eat_ghost(power_pellet_active=False, touching_ghost=True) is False
-
-
-def test_ghost_does_not_get_eaten_because_not_touching_ghost() -> None:
-    """Verify `can_eat_ghost` returns correctly."""
-    assert can_eat_ghost(power_pellet_active=True, touching_ghost=False) is False
-
-
-def test_score_when_eating_dot() -> None:
+@pytest.mark.parametrize(
+    ("touching_power_pellet", "touching_dot", "expected"),
+    [
+        pytest.param(
+            TouchingPowerPelletState.NOT_TOUCHING,
+            TouchingDotState.TOUCHING,
+            True,
+            id="score_when_touching_dot",
+        ),
+        pytest.param(
+            TouchingPowerPelletState.TOUCHING,
+            TouchingDotState.NOT_TOUCHING,
+            True,
+            id="score_when_touching_power_pellet",
+        ),
+        pytest.param(
+            TouchingPowerPelletState.NOT_TOUCHING,
+            TouchingDotState.NOT_TOUCHING,
+            False,
+            id="no_score_when_not_touching_power_pellet_or_dot",
+        ),
+    ],
+)
+def test_score_when_eating_dot(
+    touching_power_pellet: TouchingPowerPelletState,
+    touching_dot: TouchingDotState,
+    *,
+    expected: bool,
+) -> None:
     """Verify `has_scored` returns correctly."""
-    assert has_scored(touching_power_pellet=False, touching_dot=True) is True
+    assert has_scored(touching_power_pellet, touching_dot) == expected
 
 
-def test_score_when_eating_power_pellet() -> None:
-    """Verify `has_scored` returns correctly."""
-    assert has_scored(touching_power_pellet=True, touching_dot=False) is True
-
-
-def test_no_score_when_nothing_eaten() -> None:
-    """Verify `has_scored` returns correctly."""
-    assert has_scored(touching_power_pellet=False, touching_dot=False) is False
-
-
-def test_lose_if_touching_a_ghost_without_a_power_pellet_active() -> None:
+@pytest.mark.parametrize(
+    ("power_pellet_active", "touching_ghost", "expected"),
+    [
+        pytest.param(
+            PowerPelletActiveState.INACTIVE,
+            TouchingGhostState.TOUCHING,
+            True,
+            id="lose_if_touching_ghost_without_power_pellet_active",
+        ),
+        pytest.param(
+            PowerPelletActiveState.ACTIVE,
+            TouchingGhostState.TOUCHING,
+            False,
+            id="do_not_lose_if_touching_ghost_with_power_pellet_active",
+        ),
+        pytest.param(
+            PowerPelletActiveState.ACTIVE,
+            TouchingGhostState.NOT_TOUCHING,
+            False,
+            id="do_not_lose_if_not_touching_ghost",
+        ),
+    ],
+)
+def test_has_lost(
+    power_pellet_active: PowerPelletActiveState,
+    touching_ghost: TouchingGhostState,
+    *,
+    expected: bool,
+) -> None:
     """Verify `has_lost` returns correctly."""
-    assert has_lost(power_pellet_active=False, touching_ghost=True) is True
+    assert has_lost(power_pellet_active, touching_ghost) == expected
 
 
-def test_dont_lose_if_touching_a_ghost_with_a_power_pellet_active() -> None:
-    """Verify `has_lost` returns correctly."""
-    assert has_lost(power_pellet_active=True, touching_ghost=True) is False
-
-
-def test_dont_lose_if_not_touching_a_ghost() -> None:
-    """Verify `has_lost` returns correctly."""
-    assert has_lost(power_pellet_active=True, touching_ghost=False) is False
-
-
-def test_win_if_all_dots_eaten() -> None:
+@pytest.mark.parametrize(
+    ("has_eaten_all_dots", "power_pellet_active", "touching_ghost", "expected"),
+    [
+        pytest.param(
+            AllDotsEatenState.ALL_EATEN,
+            PowerPelletActiveState.INACTIVE,
+            TouchingGhostState.NOT_TOUCHING,
+            True,
+            id="win_if_all_dots_eaten",
+        ),
+        pytest.param(
+            AllDotsEatenState.ALL_EATEN,
+            PowerPelletActiveState.INACTIVE,
+            TouchingGhostState.TOUCHING,
+            False,
+            id="do_not_win_if_all_dots_eaten_but_touching_ghost",
+        ),
+        pytest.param(
+            AllDotsEatenState.ALL_EATEN,
+            PowerPelletActiveState.ACTIVE,
+            TouchingGhostState.TOUCHING,
+            True,
+            id="win_if_all_dots_eaten_and_touching_ghost_with_power_pellet_active",
+        ),
+        pytest.param(
+            AllDotsEatenState.NOT_EATEN,
+            PowerPelletActiveState.ACTIVE,
+            TouchingGhostState.TOUCHING,
+            False,
+            id="do_not_win_if_all_dots_not_eaten",
+        ),
+    ],
+)
+def test_has_won(
+    has_eaten_all_dots: AllDotsEatenState,
+    power_pellet_active: PowerPelletActiveState,
+    touching_ghost: TouchingGhostState,
+    *,
+    expected: bool,
+) -> None:
     """Verify `has_won` returns correctly."""
     assert (
         has_won(
-            has_eaten_all_dots=True,
-            power_pellet_active=False,
-            touching_ghost=False,
+            has_eaten_all_dots,
+            power_pellet_active,
+            touching_ghost,
         )
-        is True
-    )
-
-
-def test_dont_win_if_all_dots_eaten_but_touching_a_ghost() -> None:
-    """Verify `has_won` returns correctly."""
-    assert (
-        has_won(
-            has_eaten_all_dots=True,
-            power_pellet_active=False,
-            touching_ghost=True,
-        )
-        is False
-    )
-
-
-def test_win_if_all_dots_eaten_and_touching_a_ghost_with_a_power_pellet_active() -> (
-    None
-):
-    """Verify `has_won` returns correctly."""
-    assert (
-        has_won(
-            has_eaten_all_dots=True,
-            power_pellet_active=True,
-            touching_ghost=True,
-        )
-        is True
-    )
-
-
-def test_dont_win_if_not_all_dots_eaten() -> None:
-    """Verify `has_won` returns correctly."""
-    assert (
-        has_won(
-            has_eaten_all_dots=False,
-            power_pellet_active=True,
-            touching_ghost=True,
-        )
-        is False
+        == expected
     )
 
 
