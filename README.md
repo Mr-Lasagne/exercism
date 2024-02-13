@@ -83,7 +83,7 @@ available on [Exercism][exercism].
 - Gigasecond
 - Go Counting
 - Grade School
-- Grains
+- [Grains][github-grains]
 - Grep
 - [Guido's Gorgeous Lasagna][github-guidos-gorgeous-lasagna]
 
@@ -239,6 +239,7 @@ available on [Exercism][exercism].
   https://github.com/Mr-Lasagne/exercism/tree/main/python/currency_exchange
 [github-ghost-gobble-arcade-game]:
   https://github.com/Mr-Lasagne/exercism/tree/main/python/ghost_gobble_arcade_game
+[github-grains]: https://github.com/Mr-Lasagne/exercism/tree/main/python/grains
 [github-guidos-gorgeous-lasagna]:
   https://github.com/Mr-Lasagne/exercism/tree/main/python/guidos_gorgeous_lasagna
 [github-hello-world]:
