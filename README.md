@@ -27,7 +27,7 @@ available on [Exercism][exercism].
 - Allergies
 - Alphametics
 - Anagram
-- Armstrong Numbers
+- [Armstrong Numbers][github-armstrong-numbers]
 - Atbash Cipher
 
 #### B
@@ -229,6 +229,8 @@ available on [Exercism][exercism].
 - Zipper
 
 [exercism]: https://exercism.org/dashboard
+[github-armstrong-numbers]:
+  https://github.com/Mr-Lasagne/exercism/tree/main/python/armstrong_numbers
 [github-blackjack]:
   https://github.com/Mr-Lasagne/exercism/tree/main/python/blackjack
 [github-card-games]:
